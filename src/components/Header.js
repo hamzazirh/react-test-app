@@ -1,6 +1,8 @@
 function Header(){
     return(
-        <h1>Merhaba</h1>
+        <header>
+            <h1>Header Componenti</h1>
+        </header>
     )
 }
 
