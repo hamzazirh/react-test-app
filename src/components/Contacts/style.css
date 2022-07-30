@@ -1,0 +1,55 @@
+*,
+::after,
+::before {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 500px;
+    margin: 30px auto;
+}
+
+form {
+    background: #9ecdfd;
+    padding: 30px;
+    border-radius: 30px;
+}
+
+input {
+    padding: 15px;
+    width: 100%;
+    display: block;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    border: unset;
+}
+
+button {
+    display: block;
+    width: fit-content;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background: blue;
+    color: #fff;
+    border: unset;
+    margin: 10px auto;
+    cursor: pointer;
+}
+
+ul {
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin: 30px 0;
+    list-style: none;
+}
+
+ul li {
+    background: #e8e8e8;
+    color: black;
+    padding: 15px;
+}
+
+ul li:nth-child(2n) {
+    background: #d6d6ff;
+}
